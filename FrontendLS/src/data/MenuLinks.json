@@ -1,21 +1,7 @@
 [
   {
     "name": "Home",
-    "path": "/",
-    "subMenu": [
-      {
-        "name": "Home One",
-        "path": "/"
-      },
-      {
-        "name": "Home Two",
-        "path": "/home-two"
-      },
-      {
-        "name": "Home Three",
-        "path": "/home-three"
-      }
-    ]
+    "path": "/"
   },
   {
     "name": "About Us",
