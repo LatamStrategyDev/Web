@@ -1,4 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+FrontendLS/ngrok.exe
+BackendLS/node_modules
+BackendLS/mock
+BackendLS/env.yaml
+BackendLS/dist
+
+
 
 # dependencies
 FrontendLS/node_modules
