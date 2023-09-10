@@ -17,8 +17,8 @@ const AboutFour = ({...restProps})=> (
           />
         </div>
         <div className="col-lg-6 mb-30 pt-10 pt-lg-0 text-center text-md-start">
-          <SecSubTitle><i className="fas fa-bring-forward"/>Get best It solution 2022</SecSubTitle>
-          <SecTitle className="h1 mb-3 pb-3 text-capitalize">Ready To Get Our Best Quality Services</SecTitle>
+          <SecSubTitle><i className="fas fa-bring-forward"/>Obtenga la mejor solución It 2023</SecSubTitle>
+          <SecTitle className="h1 mb-3 pb-3 text-capitalize">Listo para obtener nuestros servicios de mejor calidad</SecTitle>
           <InfoMedia className="media-order"
             number="01"
             title="We Deliver Perfect Solution"

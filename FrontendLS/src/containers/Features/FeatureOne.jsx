@@ -39,20 +39,20 @@ const FeatureOne = ({className})=> {
       <div className="container">   
         <Slider className="row" {...settings}>
           <FeatureBoxOne 
-            title="Development Services"
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            title="Servicios de desarrollo"
+            text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-1.png"
             path="/service-details"
           />
           <FeatureBoxOne 
-            title="Marketing Services"
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            title="Servicios de marketing"
+            text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-2.png"
             path="/service-details"
           />
           <FeatureBoxOne 
-            title="Consulting Services"
-            text="Completely implement via highly efficient process improvements. engage high value before progressive data."
+            title="Servicios de consultoría"
+            text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-3.png"
             path="/service-details"
           />

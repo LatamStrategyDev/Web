@@ -15,13 +15,13 @@ const AboutSeven = ()=> (
         </div>
         <div className="col-lg-6 col-xl-auto">
           <div className="about-box2">
-            <SecSubTitle><i className="fas fa-bring-forward"/>Get best It solution 2022</SecSubTitle>
-            <SecTitle className="text-capitalize h1">Inspiring Tech Needs for Business</SecTitle>
-            <p>Dynamically monetize web-enabled processes through client-based action items. Authoritatively grow goal is oriented markets through ompletely generate technically sound content without robust users.</p>
+            <SecSubTitle><i className="fas fa-bring-forward"/>Obtenga la mejor solución It 2023</SecSubTitle>
+            <SecTitle className="text-capitalize h1">Necesidades tecnológicas inspiradoras para las empresas</SecTitle>
+            <p>Monetizar dinámicamente los procesos habilitados para la web a través de elementos de acción basados en el cliente. Crecer con autoridad objetivo está orientado mercados a través ompletamente generar contenido técnicamente sólido sin usuarios robustos.</p>
             <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
               <div className="col-sm-auto">
-                <p className="author-degi">Founder & CEO</p>
-                <h3 className="h5 author-name">Adam Smith</h3>
+                <p className="author-degi">Fundador y CEO</p>
+                <h3 className="h5 author-name">LATAM SCG</h3>
               </div>              
               <div className="col-sm-auto">
                 <InfoMedia className="about-call"
@@ -31,7 +31,7 @@ const AboutSeven = ()=> (
                 />
               </div>
             </div>
-            <Button path="/service">Order Service<i className="far fa-long-arrow-right"/></Button>
+            <Button path="/service">Ordena sus servicios<i className="far fa-long-arrow-right"/></Button>
           </div>
         </div>
       </div>

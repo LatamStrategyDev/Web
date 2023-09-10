@@ -39,25 +39,26 @@ const TeamTwo = ({...restProps})=> {
     <div {...restProps}>
       <div className="container">
         <TitleWrap className="text-center">
-          <SecSubTitle>GREAT TEAM MEMBERS</SecSubTitle>
-          <SecTitle className="h1 text-capitalize">We Have Expert Team</SecTitle>
+        <SecSubTitle>Grandes miembros del equipo</SecSubTitle>
+          <SecTitle className="h1 text-capitalize">Contamos con un equipo de expertos</SecTitle>
+          
         </TitleWrap>
         <Slider {...settings}>
           <TeamBoxTwo
             image="images/team/t-2-1.jpg"
-            name="Grayson Gabriel"
+            name="NOMBRE PERSONA "
             desgination="Cheif Expert"
             path="/team-details"
           />
           <TeamBoxTwo
             image="images/team/t-2-2.jpg"
-            name="Samuel Thomas"
+            name="NOMBRE PERSONA"
             desgination="Cheif Expert"
             path="/team-details"
           />
           <TeamBoxTwo
             image="images/team/t-2-3.jpg"
-            name="William Lucas"
+            name="NOMBRE PERSONA"
             desgination="Design Expert"
             path="/team-details"
           />
