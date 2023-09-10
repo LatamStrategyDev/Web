@@ -3,7 +3,7 @@ version: "3.8"
 services:
   frontend:
     container_name: frontend-dev
-    image: frontend-dev
+    image: frontend-dev 
     build:
       context: ./FrontendLS
       dockerfile: Dockerfile.dev
