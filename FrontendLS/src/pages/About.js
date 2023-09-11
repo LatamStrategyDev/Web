@@ -13,13 +13,13 @@ import {
 
 const About = ()=> (
   <Fragment>
-    <Seo title="About Us" />
+    <Seo title="Nosotros" />
     <HeaderOne />
-    <Breadcrumb pageName="About Us" bgImage="images/breadcumb/breadcumb-bg.jpg" />
+    <Breadcrumb pageName="Nosotros" bgImage="images/breadcumb/breadcumb-bg.jpg" />
     <ServiceFour className="space-top space-extra-bottom"/>
     <AboutSeven/>
     <TeamTwo className="space-top space-extra-bottom"/>
-    <TestimonialThree className="space-top space-extra-bottom"/>
+    {/*<TestimonialThree className="space-top space-extra-bottom"/>*/}
     <CtaOne className="space"/>
     <BlogFour className="space-top space-extra-bottom"/>
     <FooterOne/>

@@ -48,8 +48,8 @@ const BlogFour = ({...restProps})=> {
         <div className="row justify-content-center text-center">
           <div className="col-xl-6">
             <TitleWrap>
-              <SecSubTitle>Weekly Updates</SecSubTitle>
-              <SecTitle className="text-capitalize h1">Weekly Latest Updates</SecTitle>
+              <SecSubTitle>Actualizaciones Semanales</SecSubTitle>
+              <SecTitle className="text-capitalize h1">Novedades</SecTitle>
             </TitleWrap>
           </div>
         </div>
