@@ -13,7 +13,7 @@ const HeaderOne = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
       <HeaderTop.Left>
-        <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated IT Support Engineer?</p>
+        {/* <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated IT Support Engineer?</p> */}
       </HeaderTop.Left>
       <HeaderTop.Right>
         <p className="note_style1"><i className="fal fa-clock"/><span className="note_title">Office Hours:</span> 08:00am-6:00pm</p>
