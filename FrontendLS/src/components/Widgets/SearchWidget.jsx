@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 const SearchWidget = ()=> {
   // STATES
-    const [search, setSearch] = useState('Search Here');
+    const [search, setSearch] = useState('Busca Aquí');
     // HANDLER
     const searchHandler = (e) => {
       setSearch(e.target.value);
