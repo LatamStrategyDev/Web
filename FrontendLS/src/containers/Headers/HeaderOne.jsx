@@ -27,18 +27,18 @@ const HeaderOne = () => (
           </div>
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"
-            title="Call Anytime 24/7"
-            info={<a href="tel:+26921562148">+269 2156 2148</a>}
+            title=" Llame en ualquier momento 24/7"
+            info={<a href="tel:+26921562148">+51 999 999 999</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
-            title="Mail Us For Support"
-            info={<a href="mailto:info@example.com">info@example.com</a>}
+            title="Correo para soporte"
+            info={<a href="mailto:info@example.com">dev@hotmail.com</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
-            title="Office Address"
-            info="259 HGS, Hotland, USA"
+            title="Oficina Principal"
+            info="0 HHH, Lima, Perú"
           />
         </div>
       </div>

@@ -11,8 +11,8 @@ const ServiceOne = ({className})=>  (
       <div className="row justify-content-center text-center">
         <div className="col-lg-8 col-xl-6">
           <TitleWrap>
-            <SecSubTitle>Our Latest Services</SecSubTitle>
-            <SecTitle className="h1">What Kind of Services We are Offering</SecTitle>
+            <SecSubTitle>Nuestros últimos servicios</SecSubTitle>
+            <SecTitle className="h1">Qué tipo de servicios ofrecemos</SecTitle>
           </TitleWrap>
         </div>
       </div>

@@ -45,8 +45,8 @@ const TeamThree = ({className})=> {
     <div className={`background-image ${className || ''}`} style={{ backgroundImage: 'url(images/bg/team-bg-3-1.jpg)'}}  >
       <div className="container">
         <TitleWrap className="text-center">
-          <SecSubTitle>Great Team Members</SecSubTitle>
-          <SecTitle className="h1 text-capitalize">We Have Expert Team</SecTitle>
+          <SecSubTitle>Grandes miembros del equipo</SecSubTitle>
+          <SecTitle className="h1 text-capitalize">Contamos con un equipo de expertos</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
           <TeamBoxOne path="/team-details"
