@@ -10,11 +10,11 @@ const CtaOne = ({className})=> (
     <div className="container">
       <div className="row text-center text-lg-start align-items-center justify-content-between">
         <div className="col-lg-auto">
-          <SecSubTitle className="text-white">We are here to answer your questions 24/7</SecSubTitle>
-          <SecTitle className="cta-title1 h1">Need A Consultation?</SecTitle>
+          <SecSubTitle className="text-white">Estamos aquí para responder tus preguntas 24/7</SecSubTitle>
+          <SecTitle className="cta-title1 h1">Presenta alguna duda?</SecTitle>
         </div>
         <div className="col-lg-auto">
-          <Button>Get A Quote<i className="far fa-arrow-right"/></Button>
+          <Button>Obtenga una Cotización<i className="far fa-arrow-right"/></Button>
         </div>
       </div>
     </div>

@@ -11,9 +11,9 @@ import {
 
 const Service = ()=> (
   <Fragment>
-    <Seo title="Services" />
+    <Seo title="Servicios" />
     <HeaderOne />
-    <Breadcrumb pageName="Services" bgImage="images/breadcumb/breadcumb-bg.jpg" />
+    <Breadcrumb pageName="Servicios" bgImage="images/breadcumb/breadcumb-bg.jpg" />
     <ServiceFive className="space-top space-extra-bottom"/>
     <CtaOne className="space"/>
     <ProcessThree className="space-top space-extra-bottom"/>

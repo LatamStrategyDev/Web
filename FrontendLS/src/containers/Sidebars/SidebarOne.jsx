@@ -17,7 +17,7 @@ const SidebarOne = ({className})=> (
     <Widget>
       <SearchWidget/>
     </Widget>
-    <Widget widgetTitle="Recent Posts">
+    <Widget widgetTitle="Post Recientes">
       {recentPosts.map(post => (
         <RecentPostWidget key={post.id}
           title={post.title}
@@ -27,21 +27,21 @@ const SidebarOne = ({className})=> (
         />
       ))}
     </Widget>
-    <Widget widgetTitle="Categories" className="widget_nav_menu">
+    <Widget widgetTitle="Categorías" className="widget_nav_menu">
       <CategoryWidget>
         {categoryList.map(cat => (
           <CategoryWidget.Item key={cat} path="/blog">{cat}</CategoryWidget.Item>
         ))}
       </CategoryWidget>
     </Widget>
-    <Widget widgetTitle="Gallery Posts">
+    <Widget widgetTitle="Post Galerías">
       <GalleryWidget>
         {galleryImages.map((img, index) => (          
           <GalleryWidget.Item key={index} src={img} alt="thumb"/>
         ))}
       </GalleryWidget>
     </Widget>
-    <Widget widgetTitle="Popular Tags" className="widget_tag_cloud">
+    <Widget widgetTitle="Tags Populares" className="widget_tag_cloud">
       <TagWidget>
         {blogTags.map((tag, index) => (          
           <TagWidget.Item key={index} path="/blog">{tag}</TagWidget.Item>

@@ -8,9 +8,9 @@ import {
 
 const Contact = () => (
   <Fragment>
-    <Seo title="Contact Us" />
+    <Seo title="Contáctanos" />
     <HeaderOne />
-    <Breadcrumb pageName="Contact Us" bgImage="images/breadcumb/breadcumb-bg.jpg" />
+    <Breadcrumb pageName="Contáctanos" bgImage="images/breadcumb/breadcumb-bg.jpg" />
     <ContactTwo className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>

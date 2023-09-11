@@ -6,8 +6,8 @@
     "icon": "images/icon/sr-icon-3-1.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Cloud Services",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+    "title": "Servicios en la Nube",
+    "text": "Obtenga recursos para aplicaciones e infraestructura que existen en Internet basados en la Nube."
   },
   {
     "id": "2",
@@ -16,8 +16,8 @@
     "icon": "images/icon/sr-icon-3-2.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Web Development",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+    "title": "Desarrollo Web",
+    "text": "Promueva la presencia de su negocio en el mercado con el apoyo de Landing Pages que impacten"
   },
   {
     "id": "3",
@@ -26,8 +26,8 @@
     "icon": "images/icon/sr-icon-3-3.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "IT Management",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+    "title": "Gestión TI",
+    "text": "Administre mejor su infraestructura y sistemas basado en buenas prácticas"
   },
   {
     "id": "4",
@@ -36,8 +36,8 @@
     "icon": "images/icon/sr-icon-3-4.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Software Services",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+    "title": "Servicios de Software",
+    "text": "Obtenga software a medida y personalizado para su negocio"
   },
   {
     "id": "5",
@@ -46,17 +46,7 @@
     "icon": "images/icon/sr-icon-3-5.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Machine Learning",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
-  },
-  {
-    "id": "6",
-    "path": "/service-details",
-    "image": "images/service/sr-3-6.jpg",
-    "icon": "images/icon/sr-icon-3-6.png",
-    "bgShape": "images/bg/sr-box-bg-1.jpg",
-    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Business Analycis",
-    "text": "Deliver plug commerce with dynamic is expertise. leading edge products with business models"
+    "title": "Aprendizaje Automático",
+    "text": "Tome decisiones acertadas apoyándose del análisis profundo de modelos predictivos adaptables al negocio"
   }
 ]
