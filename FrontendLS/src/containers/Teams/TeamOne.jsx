@@ -38,7 +38,7 @@ const TeamOne = ({...restProps})=> {
       <div className="container">
         <TitleWrap className="text-center">
           <SecSubTitle>Great Team Members</SecSubTitle>
-          <SecTitle className="h1">We Have Expert Team</SecTitle>
+          <SecTitle className="h1">Contamos con un equipo de expertos</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
           <TeamBoxOne path="/team-details"

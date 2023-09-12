@@ -7,7 +7,7 @@ const SearchForm = ()=> {
 
   return (
     <form action="#" className="search_form1" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Search here..." />
+        <input type="text" placeholder="Buscar ..." />
         <button type="submit" aria-label="search-button"><i className="far fa-search"></i></button>
     </form>
   );

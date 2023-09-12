@@ -21,7 +21,7 @@ const BlogOne = ({className})=> (
                 </Blog.Meta>
                 <Blog.Title path="/blog-details">{post.title}</Blog.Title>
                 <p>{post.text}</p>
-                <Link to="/blog-details" className="link-btn">Read Details <i className="far fa-arrow-right"></i></Link>
+                <Link to="/blog-details" className="link-btn">Leer Detalle <i className="far fa-arrow-right"></i></Link>
               </Blog.Body>
             </Blog>
           ))}

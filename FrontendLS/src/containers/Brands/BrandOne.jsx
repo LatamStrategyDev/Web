@@ -32,7 +32,7 @@ const BrandOne = ({...restProps})=> {
       <div className="container">
         <div className="sec-line-wrap">
           <div className="sec-line"></div>
-          <h2 className="sec-title2">Our Trusted Clients</h2>
+          <h2 className="sec-title2">Nuestros Clientes Confiables</h2>
           <div className="sec-line"></div>
         </div>
         <Slider className="row text-center" {...settings}>

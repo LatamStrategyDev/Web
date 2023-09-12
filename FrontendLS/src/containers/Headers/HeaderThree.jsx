@@ -1,5 +1,5 @@
 import React, {Fragment, useState} from 'react';
-import {SidebarPopup} from '../';
+import {SidebarPopup} from '..';
 import {
   HeaderTop,
   List,

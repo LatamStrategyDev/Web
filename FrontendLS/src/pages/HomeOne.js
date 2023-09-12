@@ -20,7 +20,7 @@ import {
 
 const HomeOne = ()=> (
   <Fragment>
-    <Seo title="Home One" />
+    <Seo title="Inicio" />
     <HeaderTwo/>
     <HeroOne/>
     <div className="background-image" style={{backgroundImage: "url(images/bg/ab-bg-1-1.jpg)"}}>
@@ -30,7 +30,6 @@ const HomeOne = ()=> (
     <ServiceOne className="space-top space-extra-bottom"/>
     <CounterOne/>
     <TeamOne className="space-top space-extra-bottom"/>
-    <FaqOne/>
     <AboutTwo className="space-top space-extra-bottom"/>
     <CtaOne className="space"/>
     <ProcessOne className="space-top space-extra-bottom"/>

@@ -23,25 +23,25 @@ const FooterOne = ()=> (
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-map-marker-alt"
-              title="Office Address"
-              info="259 Hilton Street, MK 256 North, United State"
+              title="Dirección Oficina"
+              info="xxx"
             />
           </div>
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-clock"
-              title="Working Hours"
-              info="Weekdays 8am - 22pm Weekend 10am - 12pm"
+              title="Horario Oficina"
+              info="Horarios: 8:00 am - 8:00 pm"
             />
           </div>
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-phone-volume"
-              title="Contact Us"
+              title="Contáctanos"
               info={<>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@latam-strategy.com">info@latam-strategy.com</a>
                 <br/>
-                <a href="tel:+2597462153">(+259) 746 2153</a>
+                <a href="tel:+51944326929">+51XXXXXXXXX</a>
               </>}
             />
           </div>
@@ -52,9 +52,9 @@ const FooterOne = ()=> (
       <div className="container">
         <div className="row justify-content-between">            
           <div className="col-md-6 col-xl-auto">
-            <Widget widgetTitle="About Us" className="footer-widget">
+            <Widget widgetTitle="Nosotros" className="footer-widget">
               <AboutWidget>
-                <AboutWidget.Text>Intrinsicly evisculate emerging cutting edge scenarios redefine future-proof e-markets demand line</AboutWidget.Text>
+                <AboutWidget.Text>Puedes encontrarnos por las diversas redes sociales actuales.</AboutWidget.Text>
                 <IconLink className="footer-social">
                   <IconLink.Item icon="fab fa-facebook-f" path="/"/>
                   <IconLink.Item icon="fab fa-twitter" path="/"/>
@@ -65,26 +65,8 @@ const FooterOne = ()=> (
               </AboutWidget>
             </Widget>
           </div>
-          <div className="col-6 col-xl-auto">            
-            <Widget widgetTitle="Links" className="widget_nav_menu footer-widget">
-              <CategoryWidget>
-                {pageList.map(cat => (
-                  <CategoryWidget.Item key={cat.name} path={cat.path}>{cat.name}</CategoryWidget.Item>
-                ))}
-              </CategoryWidget>
-            </Widget>
-          </div>
-          <div className="col-6 col-xl-auto">            
-            <Widget widgetTitle="Explore" className="widget_nav_menu footer-widget">
-              <CategoryWidget>
-                {exploreLinks.map(cat => (
-                  <CategoryWidget.Item key={cat.name} path={cat.path}>{cat.name}</CategoryWidget.Item>
-                ))}
-              </CategoryWidget>
-            </Widget>
-          </div>
           <div className="col-md-6 col-xl-auto">            
-            <Widget widgetTitle="Lastest Post" className="footer-widget">
+            <Widget widgetTitle="Novedades" className="footer-widget">
               {recentPosts.slice(0, 2).map(post => (
                 <RecentPostWidget key={post.id}
                   title={post.title}
@@ -99,7 +81,7 @@ const FooterOne = ()=> (
     </div>
     <div className="copyright-wrap">
       <div className="container">
-        <p className="copyright-text">Copyright <i className="fal fa-copyright"/> 2022 <Link className="text-white" to="/">TechBiz</Link>. All rights reserved by <a className="text-white" href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
+        <p className="copyright-text">Copyright <i className="fal fa-copyright"/> 2022 <Link className="text-white" to="/">LatamStrategy</Link>. All rights reserved</p>
       </div>
     </div>    
   </footer>

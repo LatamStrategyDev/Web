@@ -13,12 +13,12 @@ const AboutTwo = ({...restProps})=> (
           <img src="images/skill/skill-1-1.jpg" alt="Skill"/>
         </div>
         <div className="col-lg-7 col-xxl-6 me-xl-auto">
-          <SecSubTitle><i className="fas fa-bring-forward"/>The Great Company Skill</SecSubTitle>
-          <SecTitle className="h1">Connecting People And Build Technology</SecTitle>
-          <p className="mb-4 pb-1">Energistically evisculate an expanded array of meta-services after cross-media strategic theme areas. Interactively simplify interactive customer service before fully tested relationship parallel task high standards...</p>
-          <ProgressOne title="Business Security" now={60}/>
-          <ProgressOne title="Career Development" now={88}/>
-          <ProgressOne title="Business Inovation" now={90}/>
+          <SecSubTitle><i className="fas fa-bring-forward"/>Habilidades Empresariales en TI</SecSubTitle>
+          <SecTitle className="h1">Conectando personas y construyendo tecnología</SecTitle>
+          <p className="mb-4 pb-1">Potenciamos tu empresa empleando tecnología innovadora sin afectar el rubro de tu negocio ...</p>
+          <ProgressOne title="Seguridad del Negocio" now={60}/>
+          <ProgressOne title="Desarrollo de Carrera" now={88}/>
+          <ProgressOne title="Innovación del Negocio" now={90}/>
         </div>
       </div>
     </div>

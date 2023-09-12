@@ -15,8 +15,8 @@ const ProcessOne = ({className})=> (
       <div className="row justify-content-center text-center">
         <div className="col-xl-6">
           <TitleWrap>
-            <SecSubTitle>Our Work Process</SecSubTitle>
-            <SecTitle className="h1">Work With Planing</SecTitle>
+            <SecSubTitle>Nuestros Procesos</SecSubTitle>
+            <SecTitle className="h1">Trabajo con Planeamiento</SecTitle>
           </TitleWrap>
         </div>
       </div>

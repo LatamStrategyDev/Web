@@ -11,8 +11,8 @@ import About from '../pages/About';
 
 // Blog Pages
 import Blog from '../pages/Blog';
-import BlogGrid from '../pages/BlogGrid';
-import BlogDetails from '../pages/BlogDetails';
+//import BlogGrid from '../pages/BlogGrid';
+//import BlogDetails from '../pages/BlogDetails';
 
 // Pricing Plans Page
 import PricePlan from '../pages/PricePlan';
@@ -22,12 +22,12 @@ import Service from '../pages/Service';
 import ServiceDetails from '../pages/ServiceDetails';
 
 // Team Pages
-import Team from '../pages/Team';
-import TeamDetails from '../pages/TeamDetails';
+//import Team from '../pages/Team';
+//import TeamDetails from '../pages/TeamDetails';
 
 // Project Pages
-import Project from '../pages/Project';
-import ProjectDetails from '../pages/ProjectDetails';
+//import Project from '../pages/Project';
+//import ProjectDetails from '../pages/ProjectDetails';
 
 // Contact Page
 import Contact from '../pages/Contact';
@@ -46,13 +46,7 @@ const AppRouters = () => (
       <Route path="/price-plan" exact element={<PricePlan/>} />
       <Route path="/service" exact element={<Service/>} />
       <Route path="/service-details" exact element={<ServiceDetails/>} />
-      <Route path="/project" exact element={<Project/>} />
-      <Route path="/project-details" exact element={<ProjectDetails/>} />
-      <Route path="/team" exact element={<Team/>} />
-      <Route path="/team-details" exact element={<TeamDetails/>} />
       <Route path="/blog" exact element={<Blog/>} />
-      <Route path="/blog-grid" exact element={<BlogGrid/>} />
-      <Route path="/blog-details" exact element={<BlogDetails/>} />
       <Route path="/contact" exact element={<Contact/>} />
       <Route path="*" element={<NotFound/>} />
     </Routes>

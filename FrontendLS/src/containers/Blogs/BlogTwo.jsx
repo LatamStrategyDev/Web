@@ -48,8 +48,8 @@ const BlogTwo = ({className})=> {
         <div className="row justify-content-center text-center">
           <div className="col-xl-6">
             <TitleWrap>
-              <SecSubTitle>Weekly Updates</SecSubTitle>
-              <SecTitle className="h1">Latest Blog</SecTitle>
+              <SecSubTitle>Actualizaciones Semanales</SecSubTitle>
+              <SecTitle className="h1">Novedades</SecTitle>
             </TitleWrap>
           </div>
         </div>
