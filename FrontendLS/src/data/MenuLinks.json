@@ -12,8 +12,8 @@
     "path": "/service"
   },
   {
-    "name": "Blog",
-    "path": "/blog"
+    "name": "Insights",
+    "path": "/blog-grid"
   },
   {
     "name": "Contáctanos",

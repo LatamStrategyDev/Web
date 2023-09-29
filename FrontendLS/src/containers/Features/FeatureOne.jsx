@@ -1,5 +1,5 @@
 import React from 'react';
-import {FeatureBoxOne} from '../../components/';
+import {FeatureBoxOne} from '../../components';
 import Slider from 'react-slick';
 
 const FeatureOne = ({className})=> {
@@ -38,24 +38,24 @@ const FeatureOne = ({className})=> {
     <div className={`feature-wrap1 ${className || ''}`}>
       <div className="container">   
         <Slider className="row" {...settings}>
-          <FeatureBoxOne 
+          {/* <FeatureBoxOne 
             title="Servicios de desarrollo"
             text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-1.png"
             path="/service-details"
-          />
-          <FeatureBoxOne 
+          /> */}
+          {/* <FeatureBoxOne 
             title="Servicios de marketing"
             text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-2.png"
             path="/service-details"
-          />
-          <FeatureBoxOne 
+          /> */}
+          {/* <FeatureBoxOne 
             title="Servicios de consultoría"
             text="Implantar completamente mediante mejoras de procesos altamente eficientes. comprometer datos de alto valor antes que progresivos."
             image="images/icon/fe-1-3.png"
             path="/service-details"
-          />
+          /> */}
         </Slider>
       </div>
     </div>

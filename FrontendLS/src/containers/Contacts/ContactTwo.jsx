@@ -7,7 +7,7 @@ const ContactTwo = ({...restProps})=> (
   <div {...restProps}>
     <div className="container">
       <Tab.Container  id="contactTab" defaultActiveKey='tabno1'>
-        <Nav className="contact-tab-menu">
+        {/* <Nav className="contact-tab-menu">
           <Nav.Link eventKey="tabno1">
             <span className="btn-img"><img src="images/contact/contact-1-1.jpg" alt="tabicon"/></span>
             <span className="btn-title h6">LatamStrategy, Perú<br/></span>
@@ -23,7 +23,7 @@ const ContactTwo = ({...restProps})=> (
             <span className="btn-title h6">LatamStrategy, Ecuador</span>
             <span className="btn-text">301 Estadio, Mendoza</span>
           </Nav.Link>
-        </Nav>
+        </Nav> */}
         <Tab.Content>          
           <Tab.Pane eventKey="tabno1">
             <div className="row">

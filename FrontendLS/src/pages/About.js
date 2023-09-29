@@ -5,7 +5,7 @@ import {
   ServiceFour, 
   AboutSeven,
   TeamTwo,
-  TestimonialThree,
+  // TestimonialThree,
   CtaOne,
   BlogFour,
   FooterOne

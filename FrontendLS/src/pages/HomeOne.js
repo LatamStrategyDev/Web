@@ -8,7 +8,7 @@ import {
   ServiceOne,
   CounterOne,
   TeamOne,
-  FaqOne,
+  // FaqOne,
   AboutTwo,
   CtaOne,
   ProcessOne,

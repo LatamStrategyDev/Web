@@ -7,7 +7,7 @@ import serviceData from '../../data/service.json';
 
 const ServiceOne = ({className})=>  (
   <div className={`background-image ${className || ''}`} style={{backgroundImage: 'url(images/bg/sr-bg-1-1.png)'}}>
-    <div className="container">
+    {/* <div className="container">
       <div className="row justify-content-center text-center">
         <div className="col-lg-8 col-xl-6">
           <TitleWrap>
@@ -28,7 +28,7 @@ const ServiceOne = ({className})=>  (
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
   </div>
 );
 

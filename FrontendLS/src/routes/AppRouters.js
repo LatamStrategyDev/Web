@@ -10,9 +10,9 @@ import HomeThree from '../pages/HomeThree';
 import About from '../pages/About';
 
 // Blog Pages
-import Blog from '../pages/Blog';
-//import BlogGrid from '../pages/BlogGrid';
-//import BlogDetails from '../pages/BlogDetails';
+// import Blog from '../pages/Blog';
+import Blog from '../pages/BlogGrid';
+import BlogDetails from '../pages/BlogDetails';
 
 // Pricing Plans Page
 import PricePlan from '../pages/PricePlan';
@@ -46,7 +46,7 @@ const AppRouters = () => (
       <Route path="/price-plan" exact element={<PricePlan/>} />
       <Route path="/service" exact element={<Service/>} />
       <Route path="/service-details" exact element={<ServiceDetails/>} />
-      <Route path="/blog" exact element={<Blog/>} />
+      <Route path="/blog-grid" exact element={<Blog/>} />
       <Route path="/contact" exact element={<Contact/>} />
       <Route path="*" element={<NotFound/>} />
     </Routes>

@@ -1,22 +1,28 @@
 import React from 'react';
 import {
-  HeaderTop, 
-  InfoMedia, 
-  Logo, 
-  MainMenu, 
-  FormFour, 
+  HeaderTop,
+  HeaderSticky,
+  InfoMedia,
+  Logo,
+  MainMenu,
+  FormFour,
   MobileMenu,
-  HeaderSticky
+  IconLink
 } from '../../components';
 
-const HeaderOne = () => (
+const HeaderTwo = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
       <HeaderTop.Left>
-        <p className="note_style1"><span className="note_title">Estamos Contratando:</span>¿Eres un ingeniero de soporte informático motivado?</p>
       </HeaderTop.Left>
       <HeaderTop.Right>
-        <p className="note_style1"><i className="fal fa-clock"/><span className="note_title">Horario Oficina:</span> 09:00am-6:00pm</p>
+        <IconLink className="header-social style-white" title="">
+
+          <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/latam-strategy/about/" />
+          <IconLink.Item icon="fab fa-facebook-f" path="https://www.facebook.com/profile.php?id=61551229593501" />
+          <IconLink.Item icon="fab fa-whatsapp" path="https://api.whatsapp.com/send?phone=933044949" />
+
+        </IconLink>
       </HeaderTop.Right>
     </HeaderTop>
     <div className="container">
@@ -27,19 +33,19 @@ const HeaderOne = () => (
           </div>
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"
-            title=" Llame en ualquier momento 24/7"
-            info={<a href="tel:+26921562148">+51 999 999 999</a>}
+            // title="Llamanos"
+            info={<a href="tel:+(+51) 933044949">(+51) 933044949</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
-            title="Correo para soporte"
-            info={<a href="mailto:info@example.com">dev@hotmail.com</a>}
+            // title="Correo"
+            info={<a href="mailto:consultoria@latam-strategy.com">consultoria@latam-strategy.com</a>}
           />
-          <InfoMedia className="header-media col-auto d-none d-xl-flex"
+          {/* <InfoMedia className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
-            title="Oficina Principal"
-            info="0 HHH, Lima, Perú"
-          />
+            title="Oficina principal"
+            info="Av. los llllllll"
+          /> */}
         </div>
       </div>
     </div>
@@ -60,4 +66,4 @@ const HeaderOne = () => (
 );
 
 
-export default HeaderOne;
+export default HeaderTwo;

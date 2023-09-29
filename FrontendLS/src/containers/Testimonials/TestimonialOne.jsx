@@ -47,21 +47,21 @@ const TestimonialOne = ({...restProps})=> {
     ]
   };  
   
-  return (  
-    <div {...restProps}>
-      <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-lg-auto text-center text-lg-start">
+  // return (  
+    // <div {...restProps}>
+      {/* <div className="container"> */}
+        {/* <div className="row justify-content-between"> */}
+          {/* <div className="col-lg-auto text-center text-lg-start">
             <TitleWrap>
               <SecSubTitle><i className="fas fa-bring-forward"/>Nuestras mejores reseñas</SecSubTitle>
               <SecTitle className="h1">Feedback del Cliente</SecTitle>
             </TitleWrap>
-          </div>
-          <div className="col-auto d-none d-lg-block">
+          </div> */}
+          {/* <div className="col-auto d-none d-lg-block">
             <SlideNavBtn slideParent={sliderWrap} />
-          </div>
-        </div>
-        <Slider ref={sliderWrap} className="row" {...settings}>
+          </div> */}
+        // </div>
+        {/* <Slider ref={sliderWrap} className="row" {...settings}>
           {testimonialData.map((item, index) => (
             <div key={index}>
               <TestimonialBoxOne
@@ -73,10 +73,10 @@ const TestimonialOne = ({...restProps})=> {
               />
             </div>
           ))}
-        </Slider>
-      </div>
-    </div>
-  );
+        </Slider> */}
+      {/* </div> */}
+    // </div>
+  // );
 }
 
 export default TestimonialOne;

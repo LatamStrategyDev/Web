@@ -3,24 +3,24 @@
     "number": "01",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
-    "icon": "images/icon/process-1-4.png",
-    "title": "Análisis y Diseño",
-    "text": "Acercamiento al negocio y formulación de los requerimientos funcionales como entregable."
+    "icon": "images/icon/proceso-de-trabajo.png",
+    "title": "Mapeo de procesos",
+    "text": "Representación visual de las actividades organizacionales."
   },
   {
     "number": "02",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
-    "icon": "images/icon/process-1-1.png",
-    "title": "Construcción y Validación",
-    "text": "Desarrollo del producto de software y validaciones unitarias de los componentes del mismo."
+    "icon": "images/icon/desarrollo.png",
+    "title": "Desarrollo de Software",
+    "text": "Construcción de productos y servicios digitales a través de la aplicación de buenas prácticas de programación y gestión de proyectos."
   },
   {
     "number": "03",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
-    "icon": "images/icon/process-1-2.png",
-    "title": "Despliegue e Implementación",
-    "text": "Preparación del ambiente y capacitación del uso del producto."
+    "icon": "images/icon/data-analytics.png",
+    "title": "Analitica Avanzada",
+    "text": "Aplicación de técnicas de IA a grandes datos para mejorar predicciones y procesos de negocio."
   }
 ]

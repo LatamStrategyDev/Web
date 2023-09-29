@@ -27,25 +27,25 @@ const BrandOne = ({...restProps})=> {
     ]
   }; 
   
-  return (
-    <div {...restProps}>    
-      <div className="container">
-        <div className="sec-line-wrap">
-          <div className="sec-line"></div>
-          <h2 className="sec-title2">Nuestros Clientes Confiables</h2>
-          <div className="sec-line"></div>
-        </div>
-        <Slider className="row text-center" {...settings}>
-          <div><img src="images/brand/br-1-1.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-2.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-3.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-4.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-5.png" alt="brands"/></div>
-          <div><img src="images/brand/br-1-6.png" alt="brands"/></div>
-        </Slider>
-      </div>
-    </div>
-  );
+  // return (
+  //   <div {...restProps}>    
+  //     <div className="container">
+  //       <div className="sec-line-wrap">
+  //         <div className="sec-line"></div>
+  //         <h2 className="sec-title2">Nuestros Clientes Confiables</h2>
+  //         <div className="sec-line"></div>
+  //       </div>
+  //       <Slider className="row text-center" {...settings}>
+  //         <div><img src="images/brand/br-1-1.png" alt="brands"/></div>
+  //         <div><img src="images/brand/br-1-2.png" alt="brands"/></div>
+  //         <div><img src="images/brand/br-1-3.png" alt="brands"/></div>
+  //         <div><img src="images/brand/br-1-4.png" alt="brands"/></div>
+  //         <div><img src="images/brand/br-1-5.png" alt="brands"/></div>
+  //         <div><img src="images/brand/br-1-6.png" alt="brands"/></div>
+  //       </Slider>
+  //     </div>
+  //   </div>
+  // );
 }
 
 export default BrandOne;
