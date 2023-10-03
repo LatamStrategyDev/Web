@@ -9,21 +9,21 @@ const HeroOne = ()=> {
       image: 'images/hero/hero-1-1.jpg',
       title: <>Mejores TI<span className="hero-innertext">Consiga la mejor Soluciónn 2023</span> <br/> Servicio y Solución 2023</>,
       text: 'Reutilizar de forma profesional la vinculación total intuitiva tras un intercambio de ideas oportuno. Coordinar de forma creíble una colaboración y un intercambio de ideas fiables después de catalizar el cambio.',
-      btn1: {text: 'Acerca de', path: '/about'},
+      btn1: {text: 'Nosotros', path: '/about'},
       btn2: {text: 'SEGUIR LEENDO',path: '/about'}
     },
     {
       image: 'images/hero/hero-1-2.jpg',
       title: <>ARRIBA<span className="hero-innertext">CONSULTA GRATUITA </span><br/> Soporte y Gestión</>,
       text: 'Reutilizar de forma profesional la vinculación total intuitiva tras un intercambio de ideas oportuno. Coordinar de forma creíble una colaboración y un intercambio de ideas fiables después de catalizar el cambio.',
-      btn1: {text: 'Acerca de', path: '/about'},
+      btn1: {text: 'Nosotros', path: '/about'},
       btn2: {text: 'SEGUIR LEENDO', path: '/about'}
     },
     {
       image: 'images/hero/hero-1-3.jpg',
       title: <>EQUIPO DE<span className="hero-innertext">INGENIEROS ALTAMENTE CUALIFICADOS</span><br/>LEYENDAS Y PROFESIONALES </>,
       text: 'Reutilizar de forma profesional la vinculación total intuitiva tras un intercambio de ideas oportuno. Coordinar de forma creíble una colaboración y un intercambio de ideas fiables después de catalizar el cambio.',
-      btn1: {text: 'Acerca de', path: '/about'},
+      btn1: {text: 'Nosotros', path: '/about'},
       btn2: {text: 'SEGUIR LEENDO',path: '/about'}
     }
   ];

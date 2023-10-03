@@ -21,33 +21,26 @@ const FooterOne = () => (
       <div className="container">
         <div className="row">
           <div className="footer-media col-sm">
-            
-            <InfoMedia
-              title="Conversemos"
-              info={<>
-                <a href="mailto:consultoria@latam-strategy.com">consultoria@latam-strategy.com</a>
-                <br />
-                <a href="tel:+2597462153">(+51) 933044949</a>
-              </>}
-            />
+            <h4>Latam Strategy</h4>
           </div>
           <div className="footer-media col-sm">
             <div className="container">
-              <div className="row justify-content-between">
-                <div className="col-md-6 col-xl-auto">
-                  <Widget widgetTitle="Nosotros" className="footer-widget">
+              
+                
+                  
                     <AboutWidget>
                       <AboutWidget.Text></AboutWidget.Text>
                       <IconLink className="footer-social">
                         <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/latam-strategy/about/" />
                         <IconLink.Item icon="fab fa-facebook-f" path="https://www.facebook.com/profile.php?id=61551229593501" />
                         <IconLink.Item icon="fab fa-whatsapp" path="https://api.whatsapp.com/send?phone=933044949" />
+                        <IconLink.Item icon="fas fa-envelope" path="mailto:consultoria@latam-strategy.com" />
 
                       </IconLink>
                     </AboutWidget>
-                  </Widget>
-                </div>
-              </div>
+                  
+               
+             
             </div>
           </div>
         </div>
@@ -56,7 +49,7 @@ const FooterOne = () => (
 
     <div className="copyright-wrap">
       <div className="container">
-        <p className="copyright-text">Copyright <i className="fal fa-copyright" /> 2022 <Link className="text-white" to="/">LatamStrategy</Link></p>
+        <p className="copyright-text">Copyright <i className="fal fa-copyright" /> 2021 <Link className="text-white" to="/">LatamStrategy</Link></p>
       </div>
     </div>
   </footer>

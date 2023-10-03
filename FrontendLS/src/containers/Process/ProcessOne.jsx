@@ -22,7 +22,7 @@ const ProcessOne = ({className})=> (
       </div>
       <div className="row">
         {processData.map(item => (
-          <ProcessBoxOne key={item.number} className="col-sm-6 col-lg-3 process-style1"
+          <ProcessBoxOne key={item.number} className="col-sm-6 col-lg-4 process-style1"
             arrow={item.arrow} 
             title={item.title} 
             text={item.text} 
