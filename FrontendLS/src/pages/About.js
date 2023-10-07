@@ -15,7 +15,7 @@ const About = ()=> (
   <Fragment>
     <Seo title="Nosotros" />
     <HeaderOne />
-    <Breadcrumb pageName="Nosotros" bgImage="images/breadcumb/breadcumb-bg.jpg" />
+    <Breadcrumb pageName="Nosotros" bgImage="images/breadcumb/about.jpg" />
     <ServiceFour className="space-top space-extra-bottom"/>
     <AboutSeven/>
     <TeamTwo className="space-top space-extra-bottom"/>

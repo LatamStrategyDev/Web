@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import {
   SecSubTitle,
   SecTitle,
@@ -7,7 +7,7 @@ import {
 
 const AboutTwo = ({...restProps})=> (
   <div {...restProps}>
-    <div className="container">
+    {/* <div className="container">
       <div className="row flex-row-reverse">
         <div className="col-lg-5 col-xxl-auto mb-30 pb-20 pb-lg-0">
           <img src="images/skill/skill-1-1.jpg" alt="Skill"/>
@@ -21,7 +21,7 @@ const AboutTwo = ({...restProps})=> (
           <ProgressOne title="Innovación del Negocio" now={90}/>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 

@@ -42,18 +42,18 @@ const BlogFour = ({...restProps})=> {
     ]
   };
 
-  return (
-    <div {...restProps}>   
-      <div className="container">
-        <div className="row justify-content-center text-center">
-          <div className="col-xl-6">
+  // return (
+    {/*<div {...restProps}>   
+       <div className="container">
+       <div className="row justify-content-center text-center">
+           <div className="col-xl-6">
             <TitleWrap>
               <SecSubTitle>Actualizaciones Semanales</SecSubTitle>
               <SecTitle className="text-capitalize h1">Novedades</SecTitle>
             </TitleWrap>
-          </div>
+          </div> 
         </div>
-        <Slider className="row" {...settings}>
+        {/* <Slider className="row" {...settings}>
           {blogData.map(post => (
             <Blog className="blog-style1" key={post.id}>
               <Blog.Image path="/blog-details" src={post.featureImage} />
@@ -67,10 +67,10 @@ const BlogFour = ({...restProps})=> {
               </Blog.Body>
             </Blog>
             ))}
-        </Slider>        
+        </Slider>         
       </div>
-    </div>
-  );
+    </div>*/}
+  // );
 }
 
 export default BlogFour;

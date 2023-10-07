@@ -8,7 +8,7 @@ import {
 
 const AboutSeven = ()=> (
   <div className="background-image" style={{backgroundImage: 'url(images/bg/about-bg-5-1.jpg)'}}>
-    <div className="container container-style1">
+    {/* <div className="container container-style1">
       <div className="row flex-row-reverse align-items-center gx-70">
         <div className="col-lg-6 col-xl">
           <img src="images/about/ab-7-1.jpg" alt="aboutthumb"/>
@@ -34,8 +34,8 @@ const AboutSeven = ()=> (
             <Button path="/service">Ordena sus servicios<i className="far fa-long-arrow-right"/></Button>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
+    </div>*/}
   </div>
 );
 

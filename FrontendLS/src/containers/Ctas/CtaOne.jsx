@@ -11,7 +11,7 @@ const CtaOne = ({className})=> (
       <div className="row text-center text-lg-start align-items-center justify-content-between">
         <div className="col-lg-auto">
           <SecSubTitle className="text-white">Estamos aquí para responder tus preguntas</SecSubTitle>
-          <SecTitle className="cta-title1 h1">¿Presenta alguna duda?</SecTitle>
+          <SecTitle className="cta-title1 h1" color="">¿Presenta alguna duda?</SecTitle>
         </div>
         <div className="col-lg-auto">
           <Button>Conversemos<i className="far fa-arrow-right"/></Button>
