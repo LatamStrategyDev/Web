@@ -13,15 +13,12 @@ import {
 
 const About = ()=> (
   <Fragment>
-    <Seo title="Nosotros" />
     <HeaderOne />
     <Breadcrumb pageName="Nosotros" bgImage="images/breadcumb/about.jpg" />
-    <ServiceFour className="space-top space-extra-bottom"/>
-    <AboutSeven/>
+    {/* <ServiceFour className="space-top space-extra-bottom"/> */}
     <TeamTwo className="space-top space-extra-bottom"/>
-    {/*<TestimonialThree className="space-top space-extra-bottom"/>*/}
+    
     <CtaOne className="space"/>
-    <BlogFour className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>
   </Fragment>
