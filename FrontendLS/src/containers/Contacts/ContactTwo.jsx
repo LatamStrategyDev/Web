@@ -29,22 +29,18 @@ const ContactTwo = ({...restProps})=> (
             <div className="row">
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <h3 className="contact-box__title h4">Dirección Oficina Peru</h3>                  
+                  <h3 className="contact-box__title h4">Contactos</h3>                  
                   <p className="contact-box__text">.</p>
                   <InfoMedia
                     icon="fal fa-phone-alt"
-                    title="Número Celular y Correo"
-                    info={<><a href="tel:+51944326929">+(51) 944326929</a><a href="mailto:info@latam-strategy.com">info@latam-strategy.com</a></>}
+                    title="Número y Correo"
+                    info={<><a href="tel:+51933044949">+(51) 933044949</a><a href="mailto:consultoria@latam-strategy.com">consultoria@latam-strategy.com</a></>}
                   />
-                  <InfoMedia
-                    icon="far fa-map-marker-alt"
-                    title="Nuestra Dirección"
-                    info="18 Bayovar, SJL"
-                  />
+                 
                   <InfoMedia
                     icon="far fa-clock"
                     title="Horarios de Atención"
-                    info="7:00am - 6:00pm ( Lun - Vie ) Sab, Dom & Feriados Cerrado"
+                    info="9:00am - 7:00pm ( Lun - Sab ) Dom y Feriados Cerrado"
                   />
                 </div>
               </div>

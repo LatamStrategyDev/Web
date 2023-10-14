@@ -20,9 +20,9 @@ const ProcessOne = ({ className }) => (
           </TitleWrap>
         </div>
       </div>
-      <div className="row">
+      <div className="row justify-content-between">
         {processData.map(item => (
-          <ProcessBoxOne key={item.number} className="col-sm- col-lg-4 process-style"
+          <ProcessBoxOne key={item.number} className="col-md-4 process-style2"
             arrow={item.arrow}
             title={item.title}
             text={item.text}

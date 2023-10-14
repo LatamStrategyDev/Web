@@ -1,7 +1,7 @@
 [
   {
     
-
+    "number": "01",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
     "icon": "images/icon/proceso-de-trabajo.png",
@@ -9,7 +9,7 @@
     "text": "Representación visual de las actividades organizacionales."
   },
   {
-  
+    "number": "02",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
     "icon": "images/icon/desarrollo.png",
@@ -17,7 +17,7 @@
     "text": "Construcción de productos y servicios digitales a través de la aplicación de buenas prácticas de programación y gestión de proyectos."
   },
   {
-   
+    "number": "03",
     "arrow": "images/icon/process-arrow-1-1.png",
     "arrow2": "images/icon/process-arrow-2-1.png",
     "icon": "images/icon/data-analytics.png",

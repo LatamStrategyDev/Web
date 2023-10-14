@@ -22,7 +22,7 @@ const ProcessThree = ({className})=> (
       </div>
       <div className="row justify-content-between">
         {processData.slice(0, 3).map(item => (
-          <ProcessBoxOne key={item.number} className="col-md-4 col-xl-auto process-style2"
+          <ProcessBoxOne key={item.number} className="col-md-4 col-xl-auto process-style3"
             arrow={item.arrow2} 
             title={item.title} 
             text={item.text} 

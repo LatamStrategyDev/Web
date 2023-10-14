@@ -10,7 +10,7 @@ const Contact = () => (
   <Fragment>
     <Seo title="Contáctanos" />
     <HeaderOne />
-    <Breadcrumb pageName="Contáctanos" bgImage="images/breadcumb/breadcumb-bg.jpg" />
+    <Breadcrumb pageName="Contáctanos" bgImage="images/breadcumb/contactanos.jpg" />
     <ContactTwo className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>
